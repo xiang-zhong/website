@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>APP下载</title>
+    <link rel="stylesheet" type="text/css" href="../css/mainText.css">
+    <style>
+        MinTextFontSize{
+            font-size:20px
+        }
+        .footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+        FooterText{
+            color : gray;
+        }
+        /* 响应式布局 - 当屏幕的宽度小于 800 像素时，使两列堆叠而不是并排 */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* 响应式布局 - 当屏幕的宽度小于 400 像素时，使导航链接堆叠而不是并排 */
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+          }
+        }
+    </style>
+</head>
+<body bgcolor="#f5deb3">
+    <ul>
+        <li><a href="#home">主页</a></li>
+        <li><a href="#why"">怎么使用</a></li>
+        <li><a href="#about" >关于</a></li>
+        <li><a href="#install">下载</a></li>
+    </ul>
+
+    <div style="margin-left:30%;padding:1px 16px;height:1000px;">
+    <text>
+        <MinTextFontSize id = "home">
+            <h1>手机端APP主页</h1>
+            <br><br>你好,欢迎来到手机APP主页！
+            <br>这个APP是由本网站开发者开发的一款手机APP
+            <br>这款手机APP可以进入官网，反馈信息等，后面可能还会开发更多的功能
+        </MinTextFontSize>
+
+        <br><br><br>
+        <MinTextFontSize id = "why">
+            <h1>如何使用？</h1>
+            <br><br>通过APP安装包可直接安装该软件
+            <br>进入APP后，可点击“点击进入按钮”进入
+            <br>进入时，需拖动“验证条”进入主页面
+            <br>进入主页面后，可以点击各个按钮进行操作
+        </MinTextFontSize>
+
+        <br><br><br>
+        <MinTextFontSize id = "about">
+            <h1>关于</h1>
+            <br><br>本软件使用“APP工匠”开发
+        </MinTextFontSize>
+
+        <br><br><br>
+        <MinTextFontSize id = "install">
+            <h1>下载</h1>
+            <br><br>下载链接
+            <a href="../download/APP内测.apk" class="tm-nav-item-link">点击下载官方手机APP【内测】（apk直链）</a>
+            <br>手机扫码下载
+            <br><img src="../img/Qr.png" alt="Menu top image" class="img-fluid tm-sidebar-image">
+        </MinTextFontSize>
+        <br><br><br><div class="footer">
+        <FooterText style = "float: left"><a href="../home.html" class="tm-nav-item-link">返回主页</a></FooterText>
+        <br><FooterText>*最终解释权归本网站开发者所有！</FooterText>
+    </div>
+    </text>
+    </div>
+
+</body>
+</html>
