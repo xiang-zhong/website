@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们</title>
+    <link rel="stylesheet" type="text/css" href="../css/mainText.css">
+    <style>
+        MinTextFontSize{
+            font-size:20px
+        }
+        .footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+        FooterText{
+            color : gray;
+        }
+        /* 响应式布局 - 当屏幕的宽度小于 800 像素时，使两列堆叠而不是并排 */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* 响应式布局 - 当屏幕的宽度小于 400 像素时，使导航链接堆叠而不是并排 */
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+          }
+        }
+    </style>
+</head>
+<body bgcolor="#f5deb3">
+    <ul>
+        <li><a href="#we">我们的账号</a></li>
+        <li><a href="#phoneME"">联系我们</a></li>
+        <li><a href="#cooperation" >合作共赢</a></li>
+        <li><a href="#friendship">友情链接</a></li>
+    </ul>
+
+    <div style="margin-left:30%;padding:1px 16px;height:1000px;">
+    <text>
+        <MinTextFontSize id = "we">
+            <h1>我们的官方账号</h1>
+            <br><br>认准官方账号不迷路！
+            <br>我们旗下的账号有
+            <br><a href="https://blog.csdn.net/m0_55186589" class="tm-nav-item-link">csdn</a>
+            <br><a href="https://weibo.com/u/7558748103" class="tm-nav-item-link">微博</a>
+
+        </MinTextFontSize>
+
+        <br><br><br>
+        <MinTextFontSize id = "phoneME">
+            <h1>联系我们</h1>
+            <br><br>可以通过板块"我们的官方账号"联系
+            <br>可通过邮箱：zhongx628@qq.com联系
+            <br>可通过旗下“手机APP”反馈
+        </MinTextFontSize>
+
+        <br><br><br>
+        <MinTextFontSize id = "cooperation">
+            <h1>合作共赢</h1>
+            <br><br>暂时不合作！（有特殊情况）
+        </MinTextFontSize>
+
+        <br><br><br>
+        <MinTextFontSize id = "friendship">
+            <h1>友情链接</h1>
+            <a href="github.com" class="tm-nav-item-link">github</a>
+            <a href="it61.cn" class="tm-nav-item-link">童程童美</a>
+        </MinTextFontSize>
+        <br><br><br><div class="footer">
+        <FooterText style = "float: left"><a href="../home.html" class="tm-nav-item-link">返回主页</a></FooterText>
+        <br><FooterText>*最终解释权归本网站开发者所有！</FooterText>
+    </div>
+    </text>
+    </div>
+
+</body>
+</html>
