@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>航天大战 space war</title>
+    <link rel="stylesheet" type="text/css" href="../css/mainText.css">
+    <style>
+        MinTextFontSize{
+            font-size:20px
+        }
+        .footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+        FooterText{
+            color : gray;
+        }
+        /* 响应式布局 - 当屏幕的宽度小于 800 像素时，使两列堆叠而不是并排 */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* 响应式布局 - 当屏幕的宽度小于 400 像素时，使导航链接堆叠而不是并排 */
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+          }
+        }
+    </style>
+</head>
+<body bgcolor="#f5deb3">
+    <ul>
+        <li><a href="#name">名称由来</a></li>
+        <li><a href="#poject">项目介绍</a></li>
+        <li><a href="#download">下载</a></li>
+    </ul>
+
+    <div style="margin-left:30%;padding:1px 16px;height:1000px;">
+    <text>
+        <MinTextFontSize id = "name">
+            <h1>名称由来</h1>
+            <br><br>“航天大战”该名称由来为：<br>因为游戏界面为太空，并且任务为“突破重重防线，运送解除程序”
+
+        </MinTextFontSize>
+
+        <br><br><br>
+        <MinTextFontSize id = "poject">
+            <h1>项目介绍</h1>
+            <br><br>
+            <br>游戏任务：护送“解药”
+            <br>游戏代码量：480 行
+        </MinTextFontSize>
+
+        <br><br><br>
+        <MinTextFontSize id = "download">
+            <h1>下载</h1>
+            <br><br>
+            <br>暂不开放公测
+        </MinTextFontSize>
+
+        <br><br><br><div class="footer">
+        <FooterText style = "float: left"><a href="../home.html" class="tm-nav-item-link">返回主页</a></FooterText>
+        <br><FooterText>*最终解释权归本网站开发者所有！</FooterText>
+    </div>
+    </text>
+    </div>
+
+</body>
+</html>
