@@ -29,3 +29,11 @@ li a:hover:not(.active) {
   background-color: #555;
   color: grey;
 }
+#grad1 {
+  background-color: #f5deb3; /* 针对不支持渐变的浏览器 */
+  background-image: linear-gradient(to bottom right,#f5deb3, cadetblue);
+}
+#DomainChatGrad {
+  background-color: #f5deb3; /* 针对不支持渐变的浏览器 */
+  background-image: linear-gradient(to bottom right,gray, goldenrod);
+}
