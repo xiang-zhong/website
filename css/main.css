@@ -76,3 +76,22 @@ li.dropdown {
 mainBodyText{
     font-size: 20px;
 }
+
+/*返回顶部*/
+.t{
+    width: 50px;
+    height:50px;
+    background-color:skyblue;
+    border-radius:30px;
+    float: left;
+    position: fixed;
+    top:80%;
+    left:90%;
+}
+.t a{
+    text-decoration: none;
+    color:snow;
+    position: absolute;
+    top:25%;
+    left:25%;
+}
